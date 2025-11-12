@@ -125,30 +125,3 @@
 </body>
 </html>
 
-<!-- /assets/styles.css (create folder assets and this file) -->
-/* Basic, clean styles */
-:root { --bg:#fafafa; --text:#222; --muted:#666; --card:#fff; --border:#e5e7eb; --brand:#0f59a4; }
-* { box-sizing: border-box; }
-body { margin:0; font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Arial; background:var(--bg); color:var(--text); }
-.container { width:min(100%, 980px); margin:auto; padding:0 20px; }
-.site-header { background:#fff; border-bottom:1px solid var(--border); padding:28px 0; position:sticky; top:0; z-index:10; }
-.site-header h1 { margin:0 0 6px; font-size:28px; letter-spacing:0.3px; }
-.tagline { margin:0 0 10px; color:var(--muted); }
-.nav a { margin-right:16px; text-decoration:none; color:var(--brand); font-weight:600; }
-.nav a:hover { text-decoration:underline; }
-main { padding:24px 0 60px; }
-.card { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:22px; margin:18px 0; box-shadow:0 1px 2px rgba(0,0,0,0.03); }
-.grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:16px; }
-.project h3 { margin-top:0; }
-.btn { display:inline-block; padding:8px 14px; border-radius:10px; text-decoration:none; background:var(--brand); color:#fff; font-weight:600; margin-right:8px; border:1px solid transparent; }
-.btn:hover { opacity:0.95; }
-.btn.outline { background:transparent; color:var(--brand); border-color:var(--brand); }
-.bullets { padding-left:18px; }
-.muted { color:var(--muted); }
-.site-footer { border-top:1px solid var(--border); background:#fff; padding:18px 0; text-align:center; }
-
-/* Small screens */
-@media (max-width: 520px) {
-  .nav { display:flex; flex-wrap:wrap; gap:8px; }
-  .nav a { margin-right:0; }
-}
